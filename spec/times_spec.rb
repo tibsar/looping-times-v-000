@@ -6,7 +6,6 @@ describe "#using_times" do
 
 	looping_string = "Wingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\n"
 	
-	binding.pry
 	expect{ using_times }.to output(looping_string).to_stdout 
 	end
 end
