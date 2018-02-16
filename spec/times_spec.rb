@@ -1,6 +1,6 @@
 require_relative "spec_helper"
 require_relative "../times.rb"
-
+require 'pry'
 describe "#using_times" do 
 	it "puts out the phrase 'Wingardium Leviosa' 7 times by using the `times` construct" do
 
