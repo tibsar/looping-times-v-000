@@ -1,7 +1,4 @@
 def using_times
-	#your code here
+  puts "Testing this"
 end
-
-
-
 
